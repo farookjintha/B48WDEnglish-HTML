@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function formSubmission(){
+            const form = document.getElementById('userform');
+
+            console.log('Name: ', form.elements['name'].value);
+            console.log('Email: ', form.elements['email'].value);
+            console.log('Mobile Number :', form.elements['mobileNumber'].value);
+            console.log('Password: ', form.elements['password'].value);
+        }
+    </script>
+</head>
+<body>
+    <form onsubmit="formSubmission()" id="userform">
+        <div>
+            <label>Name:</label>
+            <input type="text" name="name" placeholder="Enter your name..." required/>
+        </div>
+        <div>
+            <label>Email:</label>
+            <input type="text" name="email" placeholder="Enter your email..." required/>
+        </div>
+        <div>
+            <label>Mobile Number:</label>
+            <input type="number" name="mobileNumber" placeholder="Enter your mobile number..." />
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Enter your password" />
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    
+</body>
+</html>
