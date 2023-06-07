@@ -1,0 +1,53 @@
+.parent{
+    /* width: 300px;
+    height: 300px; */
+    background-color: beige;
+    font-size: 50px;
+}
+/* div{
+    height: 500px;
+    
+} */
+
+
+.div1{
+    width: 500px;
+    height: 100vh;
+    background-color: aquamarine;
+    border: 1px solid red;
+    font-size: 16px;
+}
+
+.div2{
+    width: 50%;
+    background-color: aquamarine;
+    border: 1px solid red;
+    font-size: 100%; 
+    /* 50px */
+    /* default 16px */
+}
+
+.div3{
+    /* width: 1em; */
+    background-color: aquamarine;
+    border: 1px solid red;
+    font-size: 1em; 
+    /* 25px */
+    /* default: 16px */
+}
+
+.div4{
+    /* width: 1rem; */
+    background-color: aquamarine;
+    border: 1px solid red;
+    font-size: 1rem;
+    /* 16px */
+    /* Dfault 16px */
+}
+
+/* px - constant
+em - relative to parent;  (default: 16px)
+rem - relatie to root element (default: 16px)
+% - relative to parent ( default: 16px)
+vh - viewport height - relative to the browser or screen height;
+vw -  viewport width - relative to the browser or screen width; */
